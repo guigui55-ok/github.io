@@ -1,0 +1,56 @@
+body {
+    padding : 10px;
+    padding-top : 0px;
+}
+#contents{
+    width :420px;
+}
+
+#textinput_keyword {
+    width : 415px;
+    margin-left : 0px;
+}
+
+#button_save,#button_save2 {
+    margin-top : 10px;
+    width : 150px;
+}
+
+#registKeywordDescription_div,#other_settings_dDescription {
+    margin-top : 20px;
+    margin-bottom : 20px;
+    margin-left : 10px;
+}
+
+#registKeywordDescription,#registKeywordDescription_example,#other_settings_dDescription_p{
+    font-size : 90%;
+    margin : 0px;
+    margin-top : 0px;
+    padding : 0px;
+    line-height : 90%;
+}
+
+#keyword_list{
+    border :gray solid 1px;
+    padding-left : 10px;
+    padding : 10px;
+}
+
+#keyword_list p{
+    padding-top : 0px;
+    margin-top : 0px;
+}
+
+#keywordDisplay{
+    height : 0px;
+    visibility: hidden;
+}
+
+#button_delete{
+    margin-top : 10px;
+    width : 150px;
+}
+
+#change_password_frame{
+    visibility: hidden;
+}

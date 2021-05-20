@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Simple Input Tag Hiding Options
+</title>
+<link href="options.css" rel="stylesheet" type="text/css">
+<script src="js/common.js"></script>
+<script src="js/options.js"></script>
+
+</head>
+<body>
+    <div id="contents">
+        <h3 id="subject">Simple Input Tag Hiding Options</h3>
+        <div id="switch_div">
+            <label id="switch_p"><span>機能を有効にする</span>
+            <input type="checkbox" name="swich_input" id="swich_input" checked="checked" /></label>
+        </div>
+        <p id="subject_p">[ 検索するキーワードを追加する ] </p>
+        <input type="text" value="" id="textinput_keyword" /><br>
+        <input type="button" value="設定" id="button_save" />
+        <span id ="addmessage"></span>
+        <div id="registKeywordDescription_div">
+            <p id="registKeywordDescription">コンマで区切ると一度に複数のキーワードを登録できます。</p><br>
+            <p id="registKeywordDescription_example">例) キーワード１,キーワード２,キーワード３</p>
+        </div>
+        <div id="keywordDisplay">
+            <p id="keywordDisplay_p">[ 設定されているキーワード ]</p>
+            <p id="now_keyword">keyword</p>
+        </div>
+        <div name="keyword_list" id="keyword_list">
+            <p id="keywordDisplay_p">[ 設定されているキーワード ]</p>
+            <form id="keyword_listform"></form>
+        </div>
+        <span id ="deletemessage"></span>
+        <input type="button" value="削除" id="button_delete" />
+        <div id="other_settings">
+            <p id="other_setings_p">ページをロードしてから実行するまでの時間を設定する</p>
+            <input type="text" value="" id="textinput_waittime" /><br>
+            <input type="button" value="設定" id="button_save2" />
+            <span id="waittime_message"></span>
+        </div>
+        <div id="other_settings_dDescription">
+            <p id="other_settings_dDescription_p">ページのロードに時間がかかることにより機能しない場合は、この設定値の変更を試してください。</p>
+        </div>
+    </div>
+</body>
+</html>

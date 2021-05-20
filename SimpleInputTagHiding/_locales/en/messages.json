@@ -1,0 +1,58 @@
+{
+    "Name": {
+      "message": "Simple Input Tag Hiding"
+    },
+    "Description": {
+      "message": "Set any keyword to hide the input tag in the web page that contains that keyword."
+    },
+    "Alert_message": {
+      "message": "Sample message."
+    },
+    "SerPassWord_message": { "message" : "Please set a password." }, 
+    "InputPassWord_message": { "message" : "Please enter your password." },  
+    "ChangePassword_message": { "message" : "Change Password" },    
+    "ChangePasswordOld_message": { "message" : "Please enter your current password." },
+    "ChangePasswordNew_message": { "message" : "Please enter a new password." },
+    "options_subject": { "message" : "Add keywords to search" },
+    "options_buton_settings": { "message" : "Settings" },
+    "options_registKeywordDescription": { "message" : "You can register multiple keywords at once by separating them with commas." },
+    "options_registKeywordDescription_example": { "message" : "                Example) Keyword 1, Keyword 2, Keyword 3" },
+    "options_keywordDisplay": { "message" : "Keywords that have been set" },
+    "options_buton_delete": { "message" : "Delete" },
+    "options_other_setings_p": { "message" : "Set the time between loading and running the page" },
+    "other_settings_dDescription_p": { "message" : 
+      "If it doesn't work due to the page loading taking a long time, try changing this setting." },
+
+    "SaveWaitTime_error1": { "message" : "Error: Please enter a number." },    
+    "SaveWaitTime_error2": { "message" : "Error: Please enter a number greater than or equal to 0." },
+    "SaveWaitTime_error3_1": { "message" : "The time has been set to " },    
+    "SaveWaitTime_error3_2": { "message" : " [milliseconds]." },
+
+    "SaveKeywordsnew_error_1": { "message" : "Error: Please enter the keyword you want to add." },
+    "SaveKeywordsnew_result2_1": { "message" : "The keyword " },
+    "SaveKeywordsnew_result2_2": { "message" : " as been registered." },
+    "SaveKeywordsnew_error_2": { "message" : "Error: Unknown error. The keyword could not be read." },
+    
+    "DeleteKeywords_result1": { "message" : "The keyword " },
+    "DeleteKeywords_result2": { "message" : " has been removed." },
+    "DeleteKeywords_error": { "message" : "Error: No keyword selected." },
+
+    "LoginInputHider_error1": { "message" : "Error: Please enter your password." },
+    "LoginInputHider_error2": { "message" : "Error: Please enter half-width alphanumeric characters and symbols for the password." },
+    "LoginInputHider_alert1_1": { "message" : "Do you want to set a password " },
+    "LoginInputHider_alert1_2": { "message" : " ?" },
+    "LoginInputHider_result1": { "message" : "The password has been set." },
+    "LoginInputHider_alert2": { "message" : "The password setting has been cancelled." },
+    "LoginInputHider_error3": { "message" : "Error: The password is incorrect." },
+
+    "ChangePassword_error1": { "message" : "Error: Please enter your current password." },
+    "ChangePassword_error2": { "message" : "Error: Please enter a new password." },
+    "ChangePassword_error3": { "message" :
+      "Error: Please enter half-width alphanumeric characters and symbols for the password. (Current password)" },
+    "ChangePassword_error4": { "message" :
+      "Error: Please enter half-width alphanumeric characters and symbols for the password. (New password)" },
+    "ChangePassword_error5": { "message" : "The password has been changed." },
+    "ChangePassword_error6": { "message" : "Error: The current password is incorrect." },
+    
+    "PasswordReset_message": { "message" : "The password has been reset." }
+  }

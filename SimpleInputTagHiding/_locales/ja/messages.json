@@ -1,0 +1,55 @@
+{
+    "Name": {
+      "message": "Simple Input Tag Hiding"
+    },
+    "Description": {
+      "message": "任意のキーワードを設定し、そのキーワードが含まれるWebページ内のinput タグを非表示にします。"
+    },
+    "SerPassWord_message": { "message" : "パスワードを設定してください。" }, 
+    "InputPassWord_message": { "message" : "パスワードを入力してください。" }, 
+    "ChangePassword_message": { "message" : "パスワードを変更する" },    
+    "ChangePasswordOld_message": { "message" : "現在のパスワードを入力してください。" },
+    "ChangePasswordNew_message": { "message" : "新しいパスワードを入力してください。" },
+
+    "options_subject": { "message" : "検索するキーワードを追加する" },
+    "options_buton_settings": { "message" : "設定" },
+    "options_registKeywordDescription": { "message" : "コンマで区切ると一度に複数のキーワードを登録できます。" },
+    "options_registKeywordDescription_example": { "message" : "                例) キーワード１,キーワード２,キーワード３" },
+    "options_keywordDisplay": { "message" : "設定されているキーワード" },
+    "options_buton_delete": { "message" : "削除" },
+    "options_other_setings_p": { "message" : "ページをロードしてから実行するまでの時間を設定する" },
+    "other_settings_dDescription_p": { "message" : 
+      "ページのロードに時間がかかることにより機能しない場合は、この設定値の変更を試してください。" },
+
+    "SaveWaitTime_error1": { "message" : "エラー：数値を入力してください。" },    
+    "SaveWaitTime_error2": { "message" : "エラー：0 以上の数値を入力してください。" },
+    "SaveWaitTime_error3_1": { "message" : "時間を " },    
+    "SaveWaitTime_error3_2": { "message" : " [ミリ秒] に設定しました。" },
+
+    "SaveKeywordsnew_error_1": { "message" : "エラー：追加するキーワードを入力してください。" },
+    "SaveKeywordsnew_result2_1": { "message" : "キーワード " },
+    "SaveKeywordsnew_result2_2": { "message" : " を登録しました。" },
+    "SaveKeywordsnew_error_2": { "message" : "エラー：不明なエラーです。キーワードを読み取れませんでした。" },
+    
+    "DeleteKeywords_result1": { "message" : "キーワード " },
+    "DeleteKeywords_result2": { "message" : " を削除しました。" },
+    "DeleteKeywords_error": { "message" : "エラー：キーワードが選択されていません。" },
+
+    "LoginInputHider_error1": { "message" : "エラー：パスワードを入力してください。" },
+    "LoginInputHider_error2": { "message" : "エラー：パスワードは半角英数・記号を入力してください。" },
+    "LoginInputHider_alert1_1": { "message" : "パスワード" },
+    "LoginInputHider_alert1_2": { "message" : "を設定しますか？" },
+    "LoginInputHider_result1": { "message" : "パスワードが設定されました。" },
+    "LoginInputHider_alert2": { "message" : "パスワード設定をキャンセルしました。" },
+    "LoginInputHider_error3": { "message" : "エラー：パスワードが間違っています。" },
+
+    "ChangePassword_error1": { "message" : "エラー：現在のパスワードを入力してください。" },
+    "ChangePassword_error2": { "message" : "エラー：エラー：新しいパスワードを入力してください。" },
+    "ChangePassword_error3": { "message" : "エラー：パスワードは半角英数・記号を入力してください。(現在のパスワード)" },
+    "ChangePassword_error4": { "message" : "エラー：パスワードは半角英数・記号を入力してください。(新しいパスワード)" },
+    "ChangePassword_error5": { "message" : "パスワードが変更されました。" },
+    "ChangePassword_error6": { "message" : "エラー：現在のパスワードが間違っています。" },
+
+    "PasswordReset_message": { "message" : "パスワードがリセットされました。" }
+
+  }

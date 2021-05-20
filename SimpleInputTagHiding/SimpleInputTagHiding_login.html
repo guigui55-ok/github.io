@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Simple Input Tag Hiding Login</title>
+<link href="options.css" rel="stylesheet" type="text/css">
+<script type='text/javascript' src="js/common.js"></script>
+<script type='text/javascript' src='js/crypto-js.min.js'></script>
+<script type='text/javascript' src='js/cryptojs_aes.js'></script>
+<script type='text/javascript' src="js/content_script.js"></script>
+<script type='text/javascript' src="js/options.js"></script>
+</head>
+<body>
+    <h3>Simple Input Tag Hiding Login</h3>
+    <form id ="contents">
+        <p id ="contens_p">パスワードを入力してください。</p>
+        <input type="text" id="inputhider_login_text" value=""  />
+        <input type="button" id="inputhider_login_button" value="Login"  />
+        <span id ="message"></span>
+    </form>
+    <p><a href="#" id="changepass_link">パスワードを変更する</a></p>
+    <div id="change_password_frame">
+        <p id="change_password_old_p">現在のパスワードを入力してください。</p>
+        <input type="text" id="inputhider_changepass_old_text" value=""  />
+        <p id="change_password_new_p">新しいパスワードを入力してください</p>
+        <input type="text" id="inputhider_changepass_new_text" value=""  />
+        <input type="button" id="inputhider_changepass_button" value="パスワードを変更"  />
+    </div>
+</body>
+</html>
